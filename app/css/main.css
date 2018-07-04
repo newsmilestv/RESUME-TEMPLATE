@@ -1,3 +1,59 @@
+@font-face {
+  font-family: 'JosefinSans';
+  src: url("app/fonts/JosefinSans.eot");
+  src: url("app/fonts/JosefinSans.eot?#iefix") format("embedded-opentype"), url("app/fonts/JosefinSans.ttf") format("truetype"), url("app/fonts/JosefinSans.svg#JosefinSans") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'JosefinSansLight';
+  src: url("app/fonts/JosefinSansLight.eot");
+  src: url("app/fonts/JosefinSansLight.eot?#iefix") format("embedded-opentype"), url("app/fonts/JosefinSansLight.ttf") format("truetype"), url("app/fonts/JosefinSansLight.svg#JosefinSansLight") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url("app/fonts/LatoBold.eot");
+  src: url("app/fonts/LatoBold.eot?#iefix") format("embedded-opentype"), url("app/fonts/LatoBold.ttf") format("truetype"), url("app/fonts/LatoBold.svg#LatoBold") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url("app/fonts/LatoLight.eot");
+  src: url("app/fonts/LatoLight.eot?#iefix") format("embedded-opentype"), url("app/fonts/LatoLight.ttf") format("truetype"), url("app/fonts/LatoLight.svg#LatoLight") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url("app/fonts/LatoRegular.eot");
+  src: url("app/fonts/LatoRegular.eot?#iefix") format("embedded-opentype"), url("app/fonts/LatoRegular.ttf") format("truetype"), url("app/fonts/LatoRegular.svg#LatoRegular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("RalewayRegular.eot");
+  src: url("RalewayRegular.eot?#iefix") format("embedded-opentype"), url("RalewayRegular.ttf") format("truetype"), url("RalewayRegular.svg#RalewayRegular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url("app/fonts/RalewaySemiBold.eot");
+  src: url("app/fonts/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("app/fonts/RalewaySemiBold.ttf") format("truetype"), url("app/fonts/RalewaySemiBold.svg#RalewaySemiBold") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
 /*RESET STYLE BEGINNER*/
 * {
   margin: 0;
@@ -110,3 +166,105 @@ body {
 }
 
 /*RESET STYLE END*/
+/*HEADER START*/
+header {
+  position: relative;
+  padding-top: 263px;
+  background: url(../img/bg-header.jpg) no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #fff;
+}
+
+header section.descr-header h1 {
+  font: 90px "JosefinSans", sans-serif;
+}
+
+header section.descr-header h2 {
+  margin: 25px 0 43px 0;
+  font: 45px "JosefinSansLight", sans-serif;
+}
+
+header section.descr-header a {
+  padding: 18px 37px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: inherit;
+  border: 1px solid #f8f9fb;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  -webkit-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+header section.descr-header a:hover {
+  background: #0e82f9;
+  border: none;
+}
+
+header label {
+  position: absolute;
+  left: 20%;
+  bottom: 20%;
+  display: inline-block;
+  width: 53px;
+  height: 52px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+header label span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #fff;
+}
+
+header label span:nth-child(2) {
+  margin: 7px 0;
+}
+
+header input#input {
+  display: none;
+}
+
+header input[type="checkbox"]:checked ~ section.menu {
+  opacity: 1;
+}
+
+header section.menu {
+  opacity: 0;
+  padding: 38px 0 31px 0;
+  margin-top: 363px;
+  background: #0e82f9;
+  overflow: hidden;
+  -webkit-transition: opacity 0.8s ease;
+  -o-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+}
+
+header section.menu nav a {
+  display: block;
+  margin-right: 34px;
+  padding-bottom: 12px;
+  text-transform: capitalize;
+  font: bold 16px "RalewaySemiBold", sans-serif;
+  color: inherit;
+  -webkit-transition: border-bottom 0.9s ease;
+  -o-transition: border-bottom 0.9s ease;
+  transition: border-bottom 0.9s ease;
+}
+
+header section.menu nav a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+header section.menu nav a:last-child {
+  margin-right: 0;
+}
+
+/*HEADER END*/
