@@ -176,3 +176,43 @@ header {
 }
 
 /*HEADER END*/
+
+/*MAIN START*/
+
+/*SECTION INFORMATION START*/
+section#information {
+  background: $bd;
+  section.designer-descr {
+
+    img {
+      display: inline-block;
+    }
+
+    div.jsf-doe {
+     width: 64%;
+     display: inline-block;
+     margin: 235px 0 30px 0;
+     padding: 56px 0 42px 30px;
+     background: $w;
+     border: 1px solid $inf;
+     box-shadow: 0 0 10px $inf;
+
+     h1 {
+       margin-bottom: 20px;
+       text-transform: capitalize;
+       font: bold 35px $lb, sans-serif;
+       color: $h1;
+     }
+     h2 {
+      font: 22px $ll, sans-serif;
+      color: $h2;
+     }
+    }
+    div.social-inf {
+      display: inline-block;
+    }
+  }
+}
+/*SECTION INFORMATION END*/
+
+/*MAIN END*/

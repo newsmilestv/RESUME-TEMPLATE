@@ -268,3 +268,42 @@ header section.menu nav a:last-child {
 }
 
 /*HEADER END*/
+/*MAIN START*/
+/*SECTION INFORMATION START*/
+section#information {
+  background: #f8f9fb;
+}
+
+section#information section.designer-descr img {
+  display: inline-block;
+}
+
+section#information section.designer-descr div.jsf-doe {
+  width: 64%;
+  display: inline-block;
+  margin: 235px 0 30px 0;
+  padding: 56px 0 42px 30px;
+  background: #fff;
+  border: 1px solid #dcdddf;
+  -webkit-box-shadow: 0 0 10px #dcdddf;
+          box-shadow: 0 0 10px #dcdddf;
+}
+
+section#information section.designer-descr div.jsf-doe h1 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font: bold 35px "LatoBold", sans-serif;
+  color: #232323;
+}
+
+section#information section.designer-descr div.jsf-doe h2 {
+  font: 22px "LatoLight", sans-serif;
+  color: #282828;
+}
+
+section#information section.designer-descr div.social-inf {
+  display: inline-block;
+}
+
+/*SECTION INFORMATION END*/
+/*MAIN END*/
