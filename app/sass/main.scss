@@ -181,11 +181,13 @@ header {
 
 /*SECTION INFORMATION START*/
 section#information {
+  padding: 109px 0 145px 0;
   background: $bd;
   section.designer-descr {
 
     img {
       display: inline-block;
+      box-shadow: 0 0 10px $h1;
     }
 
     div.jsf-doe {
@@ -209,7 +211,90 @@ section#information {
      }
     }
     div.social-inf {
-      display: inline-block;
+       padding-left: 33px;
+
+      p {
+         margin-right: 34px;
+        text-transform: capitalize;
+        font: 30px $rr, sans-serif;
+        color: $follow;
+      }
+      a {
+        display: block;
+        width: 26px;
+        height: 26px;
+        margin-right: 7px;
+        background: url(../img/social-inf-icons.png) no-repeat;
+        align-self: center;
+        &:last-child {margin-right: 0;}
+        &.tw {background-position: -28px 0;}
+        &.ins {background-position: -58px 0;}
+        &.be {background-position: -88px 0;}
+        &.lin{background-position: -115px 0;}
+      }
+    }
+  }
+
+  section.designer-inf {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 81px;
+    h1 {
+      margin-bottom: 67px;
+      text-transform: uppercase;
+      font: bold 35px $rsb, sans-serif;
+    }
+    section.personal {
+
+      ul {
+        li {
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          margin-bottom: 49px;
+          font: 18px, sans-serif;
+          color: $pers;
+          &:last-child{margin-bottom: 0;}
+           p {
+             font-weight: bold;
+             text-transform: capitalize;
+             font-family: $lb;
+
+           }
+           span {
+             font-family: $lr;
+             &.name {margin-left: 100px;}
+             &.date {margin-left: 31px;}
+             &.address {margin-left: 82px;}
+             &.phone {margin-left: 95px;}
+             &.email {margin-left: 100px;}
+           }
+        }
+      }
+    }
+    section.biography {
+     flex-basis: 466px;
+     h1 {
+       margin-bottom: 50px;
+     }
+     p {
+       font: 20px/40px $lr;
+       color: $pers;
+     }
+     a {
+       display: block;
+       margin-top: 94px;
+       font: 18px $rsb, sans-serif;
+       color: $nav;
+       i {
+         display: inline-block;
+         margin-left: 15px;
+         width: 14px;
+         height: 17px;
+         background: url(../img/social-inf-icons.png) no-repeat -143px 0;
+         vertical-align: bottom;
+       }
+     }
     }
   }
 }

@@ -271,11 +271,14 @@ header section.menu nav a:last-child {
 /*MAIN START*/
 /*SECTION INFORMATION START*/
 section#information {
+  padding: 109px 0 145px 0;
   background: #f8f9fb;
 }
 
 section#information section.designer-descr img {
   display: inline-block;
+  -webkit-box-shadow: 0 0 10px #232323;
+          box-shadow: 0 0 10px #232323;
 }
 
 section#information section.designer-descr div.jsf-doe {
@@ -302,7 +305,138 @@ section#information section.designer-descr div.jsf-doe h2 {
 }
 
 section#information section.designer-descr div.social-inf {
+  padding-left: 33px;
+}
+
+section#information section.designer-descr div.social-inf p {
+  margin-right: 34px;
+  text-transform: capitalize;
+  font: 30px "RalewayRegular", sans-serif;
+  color: #c2c2c2;
+}
+
+section#information section.designer-descr div.social-inf a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-right: 7px;
+  background: url(../img/social-inf-icons.png) no-repeat;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+section#information section.designer-descr div.social-inf a:last-child {
+  margin-right: 0;
+}
+
+section#information section.designer-descr div.social-inf a.tw {
+  background-position: -28px 0;
+}
+
+section#information section.designer-descr div.social-inf a.ins {
+  background-position: -58px 0;
+}
+
+section#information section.designer-descr div.social-inf a.be {
+  background-position: -88px 0;
+}
+
+section#information section.designer-descr div.social-inf a.lin {
+  background-position: -115px 0;
+}
+
+section#information section.designer-inf {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 81px;
+}
+
+section#information section.designer-inf h1 {
+  margin-bottom: 67px;
+  text-transform: uppercase;
+  font: bold 35px "RalewaySemiBold", sans-serif;
+}
+
+section#information section.designer-inf section.personal ul li {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 49px;
+  font: 18px, sans-serif;
+  color: #4a4a4a;
+}
+
+section#information section.designer-inf section.personal ul li:last-child {
+  margin-bottom: 0;
+}
+
+section#information section.designer-inf section.personal ul li p {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "LatoBold";
+}
+
+section#information section.designer-inf section.personal ul li span {
+  font-family: "LatoRegular";
+}
+
+section#information section.designer-inf section.personal ul li span.name {
+  margin-left: 100px;
+}
+
+section#information section.designer-inf section.personal ul li span.date {
+  margin-left: 31px;
+}
+
+section#information section.designer-inf section.personal ul li span.address {
+  margin-left: 82px;
+}
+
+section#information section.designer-inf section.personal ul li span.phone {
+  margin-left: 95px;
+}
+
+section#information section.designer-inf section.personal ul li span.email {
+  margin-left: 100px;
+}
+
+section#information section.designer-inf section.biography {
+  -webkit-flex-basis: 466px;
+      -ms-flex-preferred-size: 466px;
+          flex-basis: 466px;
+}
+
+section#information section.designer-inf section.biography h1 {
+  margin-bottom: 50px;
+}
+
+section#information section.designer-inf section.biography p {
+  font: 20px/40px "LatoRegular";
+  color: #4a4a4a;
+}
+
+section#information section.designer-inf section.biography a {
+  display: block;
+  margin-top: 94px;
+  font: 18px "RalewaySemiBold", sans-serif;
+  color: #0e82f9;
+}
+
+section#information section.designer-inf section.biography a i {
   display: inline-block;
+  margin-left: 15px;
+  width: 14px;
+  height: 17px;
+  background: url(../img/social-inf-icons.png) no-repeat -143px 0;
+  vertical-align: bottom;
 }
 
 /*SECTION INFORMATION END*/
