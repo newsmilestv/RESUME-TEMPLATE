@@ -241,8 +241,7 @@ section#information {
     margin-top: 81px;
     h1 {
       margin-bottom: 67px;
-      text-transform: uppercase;
-      font: bold 35px $rsb, sans-serif;
+      @include h1;
     }
     section.personal {
 
@@ -299,5 +298,71 @@ section#information {
   }
 }
 /*SECTION INFORMATION END*/
+
+/*SECTION EDUCATION START*/
+section#education {
+  padding: 150px 0;
+  border-top: 1px solid $bdeduc;
+  border-bottom: 1px solid $bdeduc;
+  h1 {
+    margin-bottom: 80px;
+    text-align: center;
+    @include h1;
+  }
+}
+
+section.main-education {
+  position: relative;
+  div.left-date {
+    display: inline-block;
+    padding-top: 30px;
+    height: 257px;
+    flex-basis: 98px;
+    background: $nav;
+      p {
+        width: 126%;
+        display: inline-block;
+        font: 20px $lr, sans serif;
+        color: $w;
+        transform-origin: 76% 241%;
+        transform: rotate(-90deg);
+    }
+    span {
+      position: absolute;
+      top: 67px;
+      left: 97px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-left: 20px solid $nav;
+      border-bottom: 10px solid transparent;
+    }
+  }
+  div.main-descr {
+   flex-basis: 945px;
+   padding: 50px 60px 0  53px;
+   h2 {
+     text-transform: capitalize;
+     font: bold 24px $lb, sans-serif;
+     color: $black;
+   }
+   h4 {
+     margin: 13px 0 30px 0;
+     text-transform: uppercase;
+     font: 16px $lr, sans-serif;
+     color: $h4;
+   }
+   p {
+     font: 14px/21px $lr, sans-serif;
+     color: $p;
+   }
+  }
+  div.right-date {
+    height: 257px;
+    flex-basis: 98px;
+    background: $date;
+  }
+}
+/*SECTION EDUCATION END*/
 
 /*MAIN END*/

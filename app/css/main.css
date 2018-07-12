@@ -440,4 +440,90 @@ section#information section.designer-inf section.biography a i {
 }
 
 /*SECTION INFORMATION END*/
+/*SECTION EDUCATION START*/
+section#education {
+  padding: 150px 0;
+  border-top: 1px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
+}
+
+section#education h1 {
+  margin-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 35px "RalewaySemiBold", sans-serif;
+}
+
+section.main-education {
+  position: relative;
+}
+
+section.main-education div.left-date {
+  display: inline-block;
+  padding-top: 30px;
+  height: 257px;
+  -webkit-flex-basis: 98px;
+      -ms-flex-preferred-size: 98px;
+          flex-basis: 98px;
+  background: #0e82f9;
+}
+
+section.main-education div.left-date p {
+  width: 126%;
+  display: inline-block;
+  font: 20px "LatoRegular", sans serif;
+  color: #fff;
+  -webkit-transform-origin: 76% 241%;
+      -ms-transform-origin: 76% 241%;
+          transform-origin: 76% 241%;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+section.main-education div.left-date span {
+  position: absolute;
+  top: 67px;
+  left: 97px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #0e82f9;
+  border-bottom: 10px solid transparent;
+}
+
+section.main-education div.main-descr {
+  -webkit-flex-basis: 945px;
+      -ms-flex-preferred-size: 945px;
+          flex-basis: 945px;
+  padding: 50px 60px 0  53px;
+}
+
+section.main-education div.main-descr h2 {
+  text-transform: capitalize;
+  font: bold 24px "LatoBold", sans-serif;
+  color: #000;
+}
+
+section.main-education div.main-descr h4 {
+  margin: 13px 0 30px 0;
+  text-transform: uppercase;
+  font: 16px "LatoRegular", sans-serif;
+  color: #515151;
+}
+
+section.main-education div.main-descr p {
+  font: 14px/21px "LatoRegular", sans-serif;
+  color: #767676;
+}
+
+section.main-education div.right-date {
+  height: 257px;
+  -webkit-flex-basis: 98px;
+      -ms-flex-preferred-size: 98px;
+          flex-basis: 98px;
+  background: #e2e2e2;
+}
+
+/*SECTION EDUCATION END*/
 /*MAIN END*/
