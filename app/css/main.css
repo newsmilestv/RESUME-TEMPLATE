@@ -456,6 +456,8 @@ section#education h1 {
 
 section.main-education {
   position: relative;
+  -webkit-box-shadow: 0 0 10px #e2e2e2;
+          box-shadow: 0 0 10px #e2e2e2;
 }
 
 section.main-education div.left-date {
@@ -523,6 +525,42 @@ section.main-education div.right-date {
       -ms-flex-preferred-size: 98px;
           flex-basis: 98px;
   background: #e2e2e2;
+}
+
+section.middle {
+  display: block;
+  height: 32px;
+  border-right: 98px solid #e2e2e2;
+  border-left: 98px solid #e2e2e2;
+}
+
+#center {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
+p#triangle {
+  position: absolute;
+  top: 29px;
+  right: 65px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #0e82f9;
+}
+
+p#data {
+  -webkit-transform-origin: 12% 200%;
+      -ms-transform-origin: 12% 200%;
+          transform-origin: 12% 200%;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 /*SECTION EDUCATION END*/

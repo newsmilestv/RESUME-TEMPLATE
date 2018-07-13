@@ -313,6 +313,7 @@ section#education {
 
 section.main-education {
   position: relative;
+  box-shadow: 0 0 10px $date;
   div.left-date {
     display: inline-block;
     padding-top: 30px;
@@ -362,6 +363,30 @@ section.main-education {
     flex-basis: 98px;
     background: $date;
   }
+}
+section.middle {
+  display: block;
+  height: 32px;
+  border-right: 98px solid $date;
+  border-left: 98px solid $date;
+}
+#center {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+p#triangle {
+  position: absolute;
+  top: 29px;
+  right: 65px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid $nav;
+}
+p#data {
+  transform-origin: 12% 200%;
+  transform: rotate(90deg);
 }
 /*SECTION EDUCATION END*/
 
