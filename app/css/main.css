@@ -564,4 +564,110 @@ p#data {
 }
 
 /*SECTION EDUCATION END*/
+/*SECTION MY SKILLS START*/
+section#my-skills {
+  padding: 151px 0;
+}
+
+section#my-skills h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 35px "RalewaySemiBold", sans-serif;
+}
+
+div.prof-personal {
+  padding: 61px 60px 0 50px;
+  background: #0e82f9;
+  color: #fff;
+}
+
+div.prof-personal div.professional {
+  margin-right: 60px;
+}
+
+div.prof-personal div.professional:last-child {
+  margin-right: 0;
+}
+
+div.prof-personal div.professional div.head i.left-icon {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  display: inline-block;
+  width: 23px;
+  height: 27px;
+  background: url(../img/social-inf-icons.png) no-repeat -160px 0;
+}
+
+div.prof-personal div.professional div.head h2 {
+  margin-left: 22px;
+  text-transform: capitalize;
+  font: bold 26px "LatoBold";
+  color: #fff;
+}
+
+div.prof-personal div.professional ul.left-skills {
+  margin-left: 50px;
+}
+
+div.prof-personal div.professional ul.left-skills li h4 {
+  font: 16px "LatoRegular", sans-serif;
+}
+
+div.prof-personal div.professional ul.left-skills li div.under-h4 {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line {
+  height: 6px;
+  -webkit-flex-basis: 240px;
+      -ms-flex-preferred-size: 240px;
+          flex-basis: 240px;
+  background: #414042;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line span.seventy-five {
+  width: 60% !important;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line span.fifty-five {
+  width: 45% !important;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line span.white-line {
+  display: inline-block;
+  height: 100%;
+  width: 80%;
+  background: #fff;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line span.ball {
+  display: inline-block;
+  padding: 2px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+div.prof-personal div.professional ul.left-skills li div.line span.ball span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+div.prof-personal div.professional ul.left-skills li p {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+/*SECTION MY SKILLS END*/
 /*MAIN END*/

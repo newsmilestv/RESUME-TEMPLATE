@@ -2,3 +2,10 @@
   text-transform: uppercase;
   font: bold 35px $rsb, sans-serif;
 }
+
+@mixin h2 {
+  margin-left: 22px;
+  text-transform: capitalize;
+  font: bold 26px $lb;
+  color: $w;
+}
