@@ -567,18 +567,29 @@ p#data {
 /*SECTION MY SKILLS START*/
 section#my-skills {
   padding: 151px 0;
+  background: #f8f9fb;
 }
 
 section#my-skills h1 {
+  margin-bottom: 51px;
   text-align: center;
   text-transform: uppercase;
   font: bold 35px "RalewaySemiBold", sans-serif;
 }
 
 div.prof-personal {
-  padding: 61px 60px 0 50px;
+  padding: 61px 0 92px 50px;
   background: #0e82f9;
   color: #fff;
+  -webkit-flex-basis: 827px;
+      -ms-flex-preferred-size: 827px;
+          flex-basis: 827px;
+}
+
+div.prof-personal div.personal {
+  -webkit-flex-basis: 336px;
+      -ms-flex-preferred-size: 336px;
+          flex-basis: 336px;
 }
 
 div.prof-personal div.professional {
@@ -587,6 +598,12 @@ div.prof-personal div.professional {
 
 div.prof-personal div.professional:last-child {
   margin-right: 0;
+}
+
+div.prof-personal div.professional div.head i.icon-personal {
+  width: 28px !important;
+  height: 21px !important;
+  background: url(../img/social-inf-icons.png) no-repeat -183px 0 !important;
 }
 
 div.prof-personal div.professional div.head i.left-icon {
@@ -607,10 +624,19 @@ div.prof-personal div.professional div.head h2 {
 }
 
 div.prof-personal div.professional ul.left-skills {
-  margin-left: 50px;
+  margin: 40px 0 0 50px;
+}
+
+div.prof-personal div.professional ul.left-skills li {
+  margin-bottom: 28px;
+}
+
+div.prof-personal div.professional ul.left-skills li:last-child {
+  margin-bottom: 0;
 }
 
 div.prof-personal div.professional ul.left-skills li h4 {
+  margin-bottom: 10px;
   font: 16px "LatoRegular", sans-serif;
 }
 
@@ -667,6 +693,39 @@ div.prof-personal div.professional ul.left-skills li div.line span.ball span {
 div.prof-personal div.professional ul.left-skills li p {
   display: inline-block;
   margin-left: 7px;
+}
+
+div.languages {
+  margin-left: 48px;
+}
+
+div.languages article {
+  width: 262px;
+  padding: 43px 0 38px 0;
+  background: #e9e9e9;
+}
+
+div.languages article:nth-child(2) {
+  margin: 11px 0;
+}
+
+div.languages article h2 {
+  display: block;
+  margin-bottom: 23px;
+  text-align: center;
+  text-transform: capitalize;
+  font: bold 26px "LatoRegular", sans-serif;
+  color: #4a4a4a;
+}
+
+div.languages article div.stars {
+  display: block;
+  text-align: center;
+}
+
+div.languages article div.stars i {
+  font-size: 30px;
+  color: #0e82f9;
 }
 
 /*SECTION MY SKILLS END*/
