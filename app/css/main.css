@@ -729,4 +729,16 @@ div.languages article div.stars i {
 }
 
 /*SECTION MY SKILLS END*/
+/*SECTION PORTFOLIO START*/
+section#portfolio {
+  padding: 150px 0;
+}
+
+section#portfolio h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 35px "RalewaySemiBold", sans-serif;
+}
+
+/*SECTION PORTFOLIO END*/
 /*MAIN END*/

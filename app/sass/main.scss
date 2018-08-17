@@ -503,8 +503,16 @@ p#data {
      }
    }
  }
-
-
 /*SECTION MY SKILLS END*/
+
+/*SECTION PORTFOLIO START*/
+section#portfolio {
+  padding: 150px 0;
+  h1 {
+    text-align: center;
+    @include h1;
+  }
+}
+/*SECTION PORTFOLIO END*/
 
 /*MAIN END*/
