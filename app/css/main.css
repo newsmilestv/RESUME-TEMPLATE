@@ -740,5 +740,11 @@ section#portfolio h1 {
   font: bold 35px "RalewaySemiBold", sans-serif;
 }
 
+section#portfolio ul.main-port {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
 /*SECTION PORTFOLIO END*/
 /*MAIN END*/

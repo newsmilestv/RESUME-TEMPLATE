@@ -512,6 +512,11 @@ section#portfolio {
     text-align: center;
     @include h1;
   }
+
+  ul.main-port {
+    flex-wrap: wrap;
+
+  }
 }
 /*SECTION PORTFOLIO END*/
 
