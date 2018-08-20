@@ -9,3 +9,10 @@
   font: bold 26px $lb;
   color: $w;
 }
+
+@mixin conth2 {
+  margin-bottom: 45px;
+  text-transform: capitalize;
+  font: 24px $lr, sans-serif;
+  color: $pers;
+}

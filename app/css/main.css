@@ -732,6 +732,8 @@ div.languages article div.stars i {
 /*SECTION PORTFOLIO START*/
 section#portfolio {
   padding: 150px 0;
+  border-top: 1px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
 }
 
 section#portfolio h1 {
@@ -844,4 +846,144 @@ button#see-more {
 }
 
 /*SECTION PORTFOLIO END*/
+/*SECTION GET IN TOUCH START*/
+section#get-in-touch {
+  padding: 151px 0;
+  background: #f8f9fb;
+}
+
+section#get-in-touch h1 {
+  margin-bottom: 95px;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 35px "RalewaySemiBold", sans-serif;
+}
+
+section.form-and-contacts {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+section.form-and-contacts div.form {
+  margin-right: 70px;
+  -webkit-flex-basis: 570px;
+      -ms-flex-preferred-size: 570px;
+          flex-basis: 570px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.form-and-contacts div.form h2 {
+  margin-bottom: 45px;
+  text-transform: capitalize;
+  font: 24px "LatoRegular", sans-serif;
+  color: #4a4a4a;
+}
+
+section.form-and-contacts div.form form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.form-and-contacts div.form form input[type="text"],
+section.form-and-contacts div.form form input[type="email"] {
+  margin-bottom: 20px;
+  padding: 25px 0 24px 18px;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+}
+
+section.form-and-contacts div.form form textarea {
+  height: 159px;
+  padding: 20px 0 0 16px;
+}
+
+section.form-and-contacts div.form form input[type="submit"] {
+  margin-top: 18px;
+  padding: 21px 45px;
+  font: 24px "LatoRegular", sans-serif;
+  color: #fff;
+  background: #0e82f9;
+  border: none;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  cursor: pointer;
+}
+
+section.form-and-contacts div.contacts {
+  -webkit-flex-basis: 487px;
+      -ms-flex-preferred-size: 487px;
+          flex-basis: 487px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.form-and-contacts div.contacts h2 {
+  margin-bottom: 45px;
+  text-transform: capitalize;
+  font: 24px "LatoRegular", sans-serif;
+  color: #4a4a4a;
+}
+
+section.form-and-contacts div.contacts ul.address li {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+section.form-and-contacts div.contacts ul.address li:last-child {
+  margin-bottom: 0;
+}
+
+section.form-and-contacts div.contacts ul.address li i {
+  display: inline-block;
+  margin-right: 30px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  background: url(../img/social-inf-icons.png) no-repeat;
+}
+
+section.form-and-contacts div.contacts ul.address li i.home {
+  width: 20px;
+  height: 18px;
+  background-position: -214px 0;
+}
+
+section.form-and-contacts div.contacts ul.address li i.email {
+  width: 22px;
+  height: 18px;
+  background-position: -255px 0;
+}
+
+section.form-and-contacts div.contacts ul.address li i.phone {
+  width: 20px;
+  height: 20px;
+  background-position: -234px 0;
+}
+
+section.form-and-contacts div.contacts ul.address li p {
+  font: 16px/25px "LatoRegular", sans-serif;
+}
+
+section.form-and-contacts div.contacts div.map {
+  margin-top: 54px;
+}
+
+/*SECTION GET IN TOUCH END*/
 /*MAIN END*/

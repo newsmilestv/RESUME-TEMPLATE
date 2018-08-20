@@ -508,6 +508,8 @@ p#data {
 /*SECTION PORTFOLIO START*/
 section#portfolio {
   padding: 150px 0;
+  border-top: 1px solid $bdeduc;
+  border-bottom: 1px solid $bdeduc;
   h1 {
     text-align: center;
     @include h1;
@@ -576,4 +578,92 @@ button#see-more {
 }
 /*SECTION PORTFOLIO END*/
 
+/*SECTION GET IN TOUCH START*/
+section#get-in-touch {
+  padding: 151px 0;
+  background: $bd;
+    h1 {
+    margin-bottom: 95px;
+    text-align: center;
+    @include h1;
+  }
+}
+
+section.form-and-contacts {
+  flex-wrap: wrap;
+  div.form {
+    margin-right: 70px;
+    flex-basis: 570px;
+    flex-direction: column;
+    h2 {
+     @include conth2 ;
+    }
+    form {
+      flex-direction: column;
+      input[type="text"],
+      input[type="email"] {
+        margin-bottom: 20px;
+        padding: 25px 0 24px 18px;
+        border: 1px solid $inpbd;
+        outline: none;
+        border-radius: 2px;
+      }
+      textarea {
+        height: 159px;
+        padding: 20px 0 0 16px;
+      }
+      input[type="submit"] {
+        margin-top: 18px;
+        padding: 21px 45px;
+        font: 24px $lr, sans-serif;
+        color: $w;
+        background: $nav;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      }
+  }
+
+  div.contacts {
+    flex-basis: 487px;
+    flex-direction: column;
+    h2{@include conth2;}
+    ul.address {
+      li {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        margin-bottom: 35px;
+        &:last-child {margin-bottom: 0;}
+        i {
+          display: inline-block;
+          margin-right: 30px;
+          align-self: center;
+          background: url(../img/social-inf-icons.png) no-repeat;
+          &.home {
+            width: 20px;
+            height: 18px;
+            background-position: -214px 0;
+          }
+          &.email {
+            width: 22px;
+            height: 18px;
+            background-position: -255px 0;
+          }
+          &.phone {
+            width: 20px;
+            height: 20px;
+            background-position: -234px 0;
+          }
+        }
+        p {
+          font: 16px/25px $lr, sans-serif;
+        }
+      }
+    }
+    div.map {margin-top: 54px;}
+  }
+}
+/*SECTION GET IN TOUCH END*/
 /*MAIN END*/
