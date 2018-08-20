@@ -740,10 +740,107 @@ section#portfolio h1 {
   font: bold 35px "RalewaySemiBold", sans-serif;
 }
 
-section#portfolio ul.main-port {
+section#portfolio div.wrapp-site-img {
+  display: block;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port {
+  margin-bottom: 83px;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port:nth-child(2) {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.8s ease-in-out;
+  -o-transition: height 0.8s ease-in-out;
+  transition: height 0.8s ease-in-out;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li {
+  display: block;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li.first-site-img {
+  margin-top: 48px;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li.second-site-img, section#portfolio div.wrapp-site-img ul.main-port li.third-site-img {
+  height: 560px;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li.second-site-img, section#portfolio div.wrapp-site-img ul.main-port li.first-site-img {
+  margin-bottom: 20px;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li.five-site-img {
+  margin-top: 100px;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li:nth-child(2n) {
+  margin-right: 20px;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a {
+  position: relative;
+  display: block;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a picture {
+  display: block;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 92px 47px;
+  background: rgba(14, 130, 249, 0.7);
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease;
+  -o-transition: opacity 0.6s ease;
+  transition: opacity 0.6s ease;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a div:hover {
+  opacity: 1;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a div p.app-design {
+  margin-bottom: 24px;
+  text-transform: capitalize;
+  font: bold 30px "LatoRegular", sans-serif;
+}
+
+section#portfolio div.wrapp-site-img ul.main-port li a div p {
+  font: 18px "LatoRegular";
+}
+
+button#see-more {
+  display: block;
+  margin: 0 auto;
+  padding: 17px 34px;
+  background: #0e82f9;
+  text-transform: capitalize;
+  font: bold 18px "JosefinSans";
+  color: #fff;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  cursor: pointer;
 }
 
 /*SECTION PORTFOLIO END*/
