@@ -60,6 +60,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 16px;
 }
 
 .flex {
@@ -836,13 +837,20 @@ button#see-more {
   display: block;
   margin: 0 auto;
   padding: 17px 34px;
-  background: #0e82f9;
   text-transform: capitalize;
   font: bold 18px "JosefinSans";
-  color: #fff;
+  background: #0e82f9;
   -webkit-border-radius: 3px;
           border-radius: 3px;
+  color: #fff;
   cursor: pointer;
+  -webkit-transition: background 0.7s ease;
+  -o-transition: background 0.7s ease;
+  transition: background 0.7s ease;
+}
+
+button#see-more:hover {
+  background: #4a79e2;
 }
 
 /*SECTION PORTFOLIO END*/
@@ -911,12 +919,19 @@ section.form-and-contacts div.form form input[type="submit"] {
   margin-top: 18px;
   padding: 21px 45px;
   font: 24px "LatoRegular", sans-serif;
-  color: #fff;
-  background: #0e82f9;
   border: none;
+  background: #0e82f9;
   -webkit-border-radius: 3px;
           border-radius: 3px;
+  color: #fff;
   cursor: pointer;
+  -webkit-transition: background 0.7s ease;
+  -o-transition: background 0.7s ease;
+  transition: background 0.7s ease;
+}
+
+section.form-and-contacts div.form form input[type="submit"]:hover {
+  background: #4a79e2;
 }
 
 section.form-and-contacts div.contacts {
@@ -987,3 +1002,70 @@ section.form-and-contacts div.contacts div.map {
 
 /*SECTION GET IN TOUCH END*/
 /*MAIN END*/
+/*FOOTER START*/
+footer {
+  padding: 81px 0 24px 0;
+  background: #26272f;
+}
+
+section.main-footer {
+  display: block;
+  font-family: "LatoRegular";
+  text-align: center;
+  color: #fff;
+}
+
+section.main-footer p.tel {
+  font: bold 30px "LatoRegular";
+}
+
+section.main-footer p.city {
+  margin: 17px 0 37px 0;
+  font-size: 14px;
+}
+
+section.main-footer p.city,
+section.main-footer p.copyright {
+  font-family: sans-serif;
+}
+
+section.main-footer div.social-inf-footer {
+  margin-bottom: 41px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.main-footer div.social-inf-footer a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-right: 7px;
+  background: url(../img/social-inf-icons.png) no-repeat;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+section.main-footer div.social-inf-footer a:last-child {
+  margin-right: 0;
+}
+
+section.main-footer div.social-inf-footer a.tw {
+  background-position: -28px 0;
+}
+
+section.main-footer div.social-inf-footer a.ins {
+  background-position: -58px 0;
+}
+
+section.main-footer div.social-inf-footer a.be {
+  background-position: -88px 0;
+}
+
+section.main-footer div.social-inf-footer a.lin {
+  background-position: -115px 0;
+}
+
+/*FOOTER END*/

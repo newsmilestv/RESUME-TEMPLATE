@@ -16,3 +16,28 @@
   font: 24px $lr, sans-serif;
   color: $pers;
 }
+
+@mixin button {
+  background: $nav;
+  border-radius: 3px;
+  color: $w;
+  cursor: pointer;
+  transition: background 0.7s ease;
+  &:hover {
+    background: #4a79e2;
+  }
+}
+
+@mixin social {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-right: 7px;
+  background: url(../img/social-inf-icons.png) no-repeat;
+  align-self: center;
+  &:last-child {margin-right: 0;}
+  &.tw {background-position: -28px 0;}
+  &.ins {background-position: -58px 0;}
+  &.be {background-position: -88px 0;}
+  &.lin{background-position: -115px 0;}
+}

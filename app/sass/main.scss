@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .flex {
@@ -220,17 +221,7 @@ section#information {
         color: $follow;
       }
       a {
-        display: block;
-        width: 26px;
-        height: 26px;
-        margin-right: 7px;
-        background: url(../img/social-inf-icons.png) no-repeat;
-        align-self: center;
-        &:last-child {margin-right: 0;}
-        &.tw {background-position: -28px 0;}
-        &.ins {background-position: -58px 0;}
-        &.be {background-position: -88px 0;}
-        &.lin{background-position: -115px 0;}
+        @include social;
       }
     }
   }
@@ -569,12 +560,9 @@ button#see-more {
   display: block;
   margin: 0 auto;
   padding: 17px 34px;
-  background: $nav;
   text-transform: capitalize;
   font: bold 18px $js;
-  color: $w;
-  border-radius: 3px;
-  cursor: pointer;
+  @include button;
 }
 /*SECTION PORTFOLIO END*/
 
@@ -616,11 +604,8 @@ section.form-and-contacts {
         margin-top: 18px;
         padding: 21px 45px;
         font: 24px $lr, sans-serif;
-        color: $w;
-        background: $nav;
         border: none;
-        border-radius: 3px;
-        cursor: pointer;
+        @include button;
       }
       }
   }
@@ -667,3 +652,36 @@ section.form-and-contacts {
 }
 /*SECTION GET IN TOUCH END*/
 /*MAIN END*/
+
+/*FOOTER START*/
+footer {
+ padding: 81px 0 24px 0;
+ background: $bgfooter;
+
+}
+  section.main-footer {
+    display: block;
+    font-family: $lr;
+    text-align: center;
+    color: $w;
+    p.tel {
+      font: bold 30px $lr;
+    }
+    p.city {
+      margin: 17px 0 37px 0;
+      font-size: 14px;
+    }
+    p.city,
+    p.copyright {
+      font-family: sans-serif;
+    }
+
+    div.social-inf-footer {
+      margin-bottom: 41px;
+      justify-content: center;
+      a {
+        @include social;
+      }
+    }
+  }
+/*FOOTER END*/
