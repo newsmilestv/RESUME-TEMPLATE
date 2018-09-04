@@ -1069,3 +1069,43 @@ section.main-footer div.social-inf-footer a.lin {
 }
 
 /*FOOTER END*/
+/*MEDIA SCREENS START*/
+/*MAX-WIDTH: 320PX*/
+@media screen and (max-width: 320px) {
+  header {
+    padding-bottom: 50px;
+  }
+  header label {
+    left: 5%;
+    bottom: 93%;
+  }
+  header section.menu {
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    margin-top: 0;
+    padding: 0;
+  }
+  header section.menu nav {
+    width: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  header section.menu nav a {
+    margin-right: 0;
+    padding: 15px 15px;
+  }
+  header section.descr-header {
+    margin-top: 64px;
+    text-align: center;
+  }
+  header section.descr-header h1 {
+    font-size: 60px;
+  }
+}
+
+/*MEDIA SCREENS END*/

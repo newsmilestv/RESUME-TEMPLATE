@@ -685,3 +685,41 @@ footer {
     }
   }
 /*FOOTER END*/
+
+/*MEDIA SCREENS START*/
+
+/*MAX-WIDTH: 320PX*/
+@media screen and (max-width: 320px) {
+  header {
+    padding-bottom: 50px;
+    label {
+    left: 5%;
+    bottom: 93%;
+  }
+  section.menu {
+   position: absolute;
+   top: 1%;
+   left: 27%;
+   margin-top: 0;
+   padding: 0;
+   nav {
+     width: 200px;
+     flex-direction: column;
+     text-align: center;
+     a {
+      margin-right: 0;
+      padding: 15px 15px;
+    }
+   }
+ }
+ section.descr-header {
+   margin-top: 64px;
+   text-align: center;
+   h1 {
+     font-size: 60px;
+   }
+ }
+}
+
+}
+/*MEDIA SCREENS END*/
