@@ -325,6 +325,11 @@ section#information section.designer-descr div.social-inf a {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
+  -webkit-transition: -webkit-filter 0.4s ease;
+  transition: -webkit-filter 0.4s ease;
+  -o-transition: filter 0.4s ease;
+  transition: filter 0.4s ease;
+  transition: filter 0.4s ease, -webkit-filter 0.4s ease;
 }
 
 section#information section.designer-descr div.social-inf a:last-child {
@@ -345,6 +350,11 @@ section#information section.designer-descr div.social-inf a.be {
 
 section#information section.designer-descr div.social-inf a.lin {
   background-position: -115px 0;
+}
+
+section#information section.designer-descr div.social-inf a:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 section#information section.designer-inf {
@@ -456,12 +466,12 @@ section#education h1 {
 }
 
 section.main-education {
-  position: relative;
   -webkit-box-shadow: 0 0 10px #e2e2e2;
           box-shadow: 0 0 10px #e2e2e2;
 }
 
 section.main-education div.left-date {
+  position: relative;
   display: inline-block;
   padding-top: 30px;
   height: 257px;
@@ -544,15 +554,15 @@ section.middle {
   text-align: right;
 }
 
-p#triangle {
+div#triangle {
   position: absolute;
-  top: 29px;
-  right: 65px;
+  top: 67px;
+  left: -20px;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 20px solid #0e82f9;
+  border-top: 10px solid transparent;
+  border-right: 20px solid #0e82f9;
+  border-bottom: 10px solid transparent;
 }
 
 p#data {
@@ -1046,6 +1056,11 @@ section.main-footer div.social-inf-footer a {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
+  -webkit-transition: -webkit-filter 0.4s ease;
+  transition: -webkit-filter 0.4s ease;
+  -o-transition: filter 0.4s ease;
+  transition: filter 0.4s ease;
+  transition: filter 0.4s ease, -webkit-filter 0.4s ease;
 }
 
 section.main-footer div.social-inf-footer a:last-child {
@@ -1072,6 +1087,7 @@ section.main-footer div.social-inf-footer a.lin {
 /*MEDIA SCREENS START*/
 /*MAX-WIDTH: 320PX*/
 @media screen and (max-width: 320px) {
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
   }
@@ -1105,10 +1121,91 @@ section.main-footer div.social-inf-footer a.lin {
   header section.descr-header h1 {
     font-size: 60px;
   }
+  /*HEADER END*/
+  /*SECTION INFORMATION START*/
+  section#information {
+    padding: 1px 0 20px 0;
+  }
+  section#information section.designer-descr div.jsf-doe {
+    width: 100%;
+    margin: 32px 0 30px 0;
+  }
+  section#information section.designer-descr div.social-inf {
+    padding-left: 0;
+  }
+  section#information section.designer-descr div.social-inf p {
+    margin-right: 17px;
+    font-size: 19px;
+  }
+  section#information section.designer-inf section.personal ul li span.name,
+  section#information section.designer-inf section.personal ul li span.date,
+  section#information section.designer-inf section.personal ul li span.address,
+  section#information section.designer-inf section.personal ul li span.phone,
+  section#information section.designer-inf section.personal ul li span.email {
+    margin-left: 15px;
+  }
+  section#information section.designer-inf section.biography h1 {
+    margin: 60px 0 16px 0;
+  }
+  section#information section.designer-inf section.biography a {
+    margin-top: 45px;
+    text-align: center;
+  }
+  /*SECTION INFORMATION END*/
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+  section.main-education {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  section.main-education div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    -webkit-flex-basis: 144px;
+        -ms-flex-preferred-size: 144px;
+            flex-basis: 144px;
+  }
+  section.main-education div.left-date p {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  section.main-education div.left-date span {
+    top: 43px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  section.main-education div.main-descr {
+    padding: 20px 0;
+  }
+  section.main-education div.right-date {
+    display: none;
+  }
+  p#data {
+    width: 130px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
   }
@@ -1142,10 +1239,99 @@ section.main-footer div.social-inf-footer a.lin {
   header section.descr-header h1 {
     font-size: 60px;
   }
+  /*HEADER END*/
+  /*SECTION INFORMATION START*/
+  section#information {
+    padding: 1px 0 20px 0;
+  }
+  section#information section.designer-descr img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  section#information section.designer-descr div.jsf-doe {
+    width: 100%;
+    margin: 32px 0 30px 0;
+  }
+  section#information section.designer-descr div.social-inf {
+    padding-left: 0;
+  }
+  section#information section.designer-descr div.social-inf p {
+    margin-right: 17px;
+    font-size: 19px;
+  }
+  section#information section.designer-inf h1 {
+    text-align: center;
+  }
+  section#information section.designer-inf section.personal ul li span.name,
+  section#information section.designer-inf section.personal ul li span.date,
+  section#information section.designer-inf section.personal ul li span.address,
+  section#information section.designer-inf section.personal ul li span.phone,
+  section#information section.designer-inf section.personal ul li span.email {
+    margin-left: 15px;
+  }
+  section#information section.designer-inf section.biography h1 {
+    margin: 60px 0 16px 0;
+  }
+  section#information section.designer-inf section.biography a {
+    margin-top: 45px;
+    text-align: center;
+  }
+  /*SECTION INFORMATION END*/
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+  section.main-education {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  section.main-education div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    -webkit-flex-basis: 144px;
+        -ms-flex-preferred-size: 144px;
+            flex-basis: 144px;
+  }
+  section.main-education div.left-date p {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  section.main-education div.left-date span {
+    top: 43px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  section.main-education div.main-descr {
+    padding: 20px 0;
+  }
+  section.main-education div.right-date {
+    display: none;
+  }
+  p#data {
+    width: 130px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
 @media screen and (min-width: 481px) and (max-width: 600px) {
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
   }
@@ -1179,10 +1365,97 @@ section.main-footer div.social-inf-footer a.lin {
   header section.descr-header h1 {
     font-size: 60px;
   }
+  /*HEADER END*/
+  /*SECTION INFORMATION START*/
+  section#information {
+    padding: 1px 0 20px 0;
+  }
+  section#information section.designer-descr img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  section#information section.designer-descr div.jsf-doe {
+    width: 100%;
+    margin: 32px 0 30px 0;
+  }
+  section#information section.designer-descr div.social-inf {
+    padding-left: 0;
+  }
+  section#information section.designer-inf {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#information section.designer-inf h1 {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography h1 {
+    margin: 60px 0 16px 0;
+  }
+  section#information section.designer-inf section.biography p {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography a {
+    margin-top: 45px;
+    text-align: center;
+  }
+  /*SECTION INFORMATION END*/
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+  section.main-education {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  section.main-education div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    -webkit-flex-basis: 144px;
+        -ms-flex-preferred-size: 144px;
+            flex-basis: 144px;
+  }
+  section.main-education div.left-date p {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  section.main-education div.left-date span {
+    top: 43px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  section.main-education div.main-descr {
+    padding: 20px 0;
+  }
+  section.main-education div.right-date {
+    display: none;
+  }
+  p#data {
+    width: 130px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
 @media screen and (min-width: 601px) and (max-width: 768px) {
+  /*HEADER START*/
   header {
     padding-top: 100px;
   }
@@ -1195,10 +1468,101 @@ section.main-footer div.social-inf-footer a.lin {
   header section.menu nav a {
     margin-right: 28px;
   }
+  /*HEADER END*/
+  /*SECTION INFORMATION START*/
+  section#information {
+    padding: 10px 0 20px 0;
+  }
+  section#information section.designer-descr img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  section#information section.designer-descr div.jsf-doe {
+    width: 100%;
+    margin: 32px 0 30px 0;
+  }
+  section#information section.designer-descr div.social-inf {
+    padding-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#information section.designer-inf {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#information section.designer-inf h1 {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography h1 {
+    margin: 60px 0 16px 0;
+  }
+  section#information section.designer-inf section.biography p {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography a {
+    margin-top: 45px;
+    text-align: center;
+  }
+  /*SECTION INFORMATION END*/
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+  section.main-education {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  section.main-education div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    -webkit-flex-basis: 144px;
+        -ms-flex-preferred-size: 144px;
+            flex-basis: 144px;
+  }
+  section.main-education div.left-date p {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  section.main-education div.left-date span {
+    top: 43px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  section.main-education div.main-descr {
+    padding: 20px 0;
+  }
+  section.main-education div.right-date {
+    display: none;
+  }
+  p#data {
+    width: 130px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+  /*HEADER START*/
   header {
     padding-top: 100px;
   }
@@ -1211,6 +1575,89 @@ section.main-footer div.social-inf-footer a.lin {
   header section.menu nav a {
     margin-right: 28px;
   }
+  /*HEADER END*/
+  /*SECTION INFORMATION START*/
+  section#information section.designer-descr div.jsf-doe {
+    width: 47%;
+  }
+  section#information section.designer-descr div.social-inf {
+    padding-left: 0;
+  }
+  section#information section.designer-descr div.social-inf p {
+    margin-right: 6px;
+  }
+  section#information section.designer-inf {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#information section.designer-inf section.personal {
+    margin-bottom: 60px;
+  }
+  section#information section.designer-inf h1 {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography h1 {
+    margin: 0 0 16px 0;
+  }
+  section#information section.designer-inf section.biography p {
+    text-align: center;
+  }
+  section#information section.designer-inf section.biography a {
+    margin-top: 45px;
+    text-align: center;
+  }
+  /*SECTION INFORMATION END*/
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+  section.main-education {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  section.main-education div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    -webkit-flex-basis: 144px;
+        -ms-flex-preferred-size: 144px;
+            flex-basis: 144px;
+  }
+  section.main-education div.left-date p {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  section.main-education div.left-date span {
+    top: 43px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  section.main-education div.main-descr {
+    padding: 20px 0;
+  }
+  section.main-education div.right-date {
+    display: none;
+  }
+  p#data {
+    width: 130px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #0e82f9;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MEDIA SCREENS END*/

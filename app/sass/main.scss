@@ -222,6 +222,7 @@ section#information {
       }
       a {
         @include social;
+        &:hover {filter: grayscale(100%);}
       }
     }
   }
@@ -303,9 +304,9 @@ section#education {
 }
 
 section.main-education {
-  position: relative;
-  box-shadow: 0 0 10px $date;
+    box-shadow: 0 0 10px $date;
   div.left-date {
+    position: relative;
     display: inline-block;
     padding-top: 30px;
     height: 257px;
@@ -365,15 +366,15 @@ section.middle {
   flex-direction: row-reverse;
   text-align: right;
 }
-p#triangle {
+div#triangle {
   position: absolute;
-  top: 29px;
-  right: 65px;
+  top: 67px;
+  left: -20px;
   width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 20px solid $nav;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid $nav;
+	border-bottom: 10px solid transparent;
 }
 p#data {
   transform-origin: 12% 200%;
@@ -686,10 +687,11 @@ footer {
   }
 /*FOOTER END*/
 
-/*MEDIA SCREENS START*/
+                            /*MEDIA SCREENS START*/
 
 /*MAX-WIDTH: 320PX*/
 @media screen and (max-width: 320px) {
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
 
@@ -721,12 +723,99 @@ footer {
    }
  }
 }
+/*HEADER END*/
 
+
+/*SECTION INFORMATION START*/
+section#information {
+  padding: 1px 0 20px 0;
+  section.designer-descr {
+    div.jsf-doe {
+      width: 100%;
+      margin: 32px 0 30px 0;
+    }
+    div.social-inf {
+      padding-left: 0;
+      p {
+        margin-right: 17px;
+        font-size: 19px;
+      }
+    }
+  }
+
+section.designer-inf {
+  section.personal {
+    ul {
+      li {
+        span.name,
+        span.date,
+        span.address,
+        span.phone,
+        span.email {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  section.biography {
+    h1 {
+      margin: 60px 0 16px 0;
+    }
+    a {
+      margin-top: 45px;
+      text-align: center;
+    }
+  }
+}
+}
+/*SECTION INFORMATION END*/
+
+/*SECTION EDUCATION START*/
+section#education {
+  padding: 45px 0;
+}
+
+section.main-education {
+  flex-wrap: wrap;
+  div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    flex-basis: 144px;
+    p {
+      transform: none;
+    }
+    span {
+      top: 43px;
+      border-left: 10px solid transparent;
+	    border-right: 10px solid transparent;
+	    border-top: 20px solid $nav;
+    }
+  }
+  div.main-descr {
+    padding: 20px 0;
+  }
+   div.right-date {display: none;}
+}
+p#data {
+  width: 130px;
+  transform: none;
+}
+div#triangle {
+  top: 43px;
+  left: 30px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid $nav;
+}
+/*SECTION EDUCATION END*/
 }
 
 
 /*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
 
@@ -758,10 +847,99 @@ footer {
    }
  }
 }
+/*HEADER END*/
+
+/*SECTION INFORMATION START*/
+section#information {
+  padding: 1px 0 20px 0;
+  section.designer-descr {
+    img {display: block; margin: 0 auto; float: none;}
+    div.jsf-doe {
+      width: 100%;
+      margin: 32px 0 30px 0;
+    }
+    div.social-inf {
+      padding-left: 0;
+      p {
+        margin-right: 17px;
+        font-size: 19px;
+      }
+    }
+  }
+
+  section.designer-inf {
+    h1 {text-align: center;}
+    section.personal {
+      ul {
+        li {
+          span.name,
+          span.date,
+          span.address,
+          span.phone,
+          span.email {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+    section.biography {
+      h1 {
+        margin: 60px 0 16px 0;
+      }
+      a {
+        margin-top: 45px;
+        text-align: center;
+      }
+    }
+  }
+}
+/*SECTION INFORMATION END*/
+
+/*SECTION EDUCATION START*/
+section#education {
+  padding: 45px 0;
+}
+
+section.main-education {
+  flex-wrap: wrap;
+  div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    flex-basis: 144px;
+    p {
+      transform: none;
+    }
+    span {
+      top: 43px;
+      border-left: 10px solid transparent;
+	    border-right: 10px solid transparent;
+	    border-top: 20px solid $nav;
+    }
+  }
+  div.main-descr {
+    padding: 20px 0;
+  }
+   div.right-date {display: none;}
+}
+p#data {
+  width: 130px;
+  transform: none;
+}
+div#triangle {
+  top: 43px;
+  left: 30px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid $nav;
+}
+/*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
 @media screen and (min-width: 481px) and (max-width: 600px){
+  /*HEADER START*/
   header {
     padding: 78px 0 50px 0;
 
@@ -793,10 +971,85 @@ footer {
    }
  }
 }
+/*HEADER END*/
+
+/*SECTION INFORMATION START*/
+section#information {
+  padding: 1px 0 20px 0;
+  section.designer-descr {
+    img {display: block; margin: 0 auto; float: none;}
+    div.jsf-doe {
+      width: 100%;
+      margin: 32px 0 30px 0;
+    }
+    div.social-inf {
+      padding-left: 0;
+    }
+  }
+
+  section.designer-inf {
+    justify-content: center;
+    h1 {text-align: center;}
+
+    section.biography {
+      h1 {
+        margin: 60px 0 16px 0;
+      }
+      p {text-align: center;}
+      a {
+        margin-top: 45px;
+        text-align: center;
+      }
+    }
+  }
+}
+/*SECTION INFORMATION END*/
+
+/*SECTION EDUCATION START*/
+section#education {
+  padding: 45px 0;
+}
+
+section.main-education {
+  flex-wrap: wrap;
+  div.left-date {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px 33px 8px;
+    height: 0;
+    flex-basis: 144px;
+    p {
+      transform: none;
+    }
+    span {
+      top: 43px;
+      border-left: 10px solid transparent;
+	    border-right: 10px solid transparent;
+	    border-top: 20px solid $nav;
+    }
+  }
+  div.main-descr {
+    padding: 20px 0;
+  }
+   div.right-date {display: none;}
+}
+p#data {
+  width: 130px;
+  transform: none;
+}
+div#triangle {
+  top: 43px;
+  left: 30px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid $nav;
+}
+/*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
 @media screen and (min-width: 601px) and (max-width: 768px){
+  /*HEADER START*/
   header {
     padding-top: 100px;
     section.descr-header {
@@ -811,10 +1064,86 @@ footer {
       }
     }
   }
+  /*HEADER END*/
+
+/*SECTION INFORMATION START*/
+  section#information {
+    padding: 10px 0 20px 0;
+    section.designer-descr {
+      img {display: block; margin: 0 auto; float: none;}
+      div.jsf-doe {
+        width: 100%;
+        margin: 32px 0 30px 0;
+      }
+      div.social-inf {
+        padding-left: 0;
+        justify-content: center;
+      }
+    }
+
+    section.designer-inf {
+      justify-content: center;
+      h1 {text-align: center;}
+
+      section.biography {
+        h1 {
+          margin: 60px 0 16px 0;
+        }
+        p {text-align: center;}
+        a {
+          margin-top: 45px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  /*SECTION INFORMATION END*/
+
+  /*SECTION EDUCATION START*/
+  section#education {
+    padding: 45px 0;
+  }
+
+  section.main-education {
+    flex-wrap: wrap;
+    div.left-date {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px 33px 8px;
+      height: 0;
+      flex-basis: 144px;
+      p {
+        transform: none;
+      }
+      span {
+        top: 43px;
+        border-left: 10px solid transparent;
+  	    border-right: 10px solid transparent;
+  	    border-top: 20px solid $nav;
+      }
+    }
+    div.main-descr {
+      padding: 20px 0;
+    }
+     div.right-date {display: none;}
+  }
+  p#data {
+    width: 130px;
+    transform: none;
+  }
+  div#triangle {
+    top: 43px;
+    left: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid $nav;
+  }
+  /*SECTION EDUCATION END*/
 }
 
 /*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
 @media screen and (min-width: 769px) and (max-width: 1200px) {
+  /*HEADER START*/
   header {
     padding-top: 100px;
     section.descr-header {
@@ -829,5 +1158,80 @@ footer {
       }
     }
   }
+  /*HEADER END*/
+
+  /*SECTION INFORMATION START*/
+    section#information {
+      section.designer-descr {
+        div.jsf-doe {
+          width: 47%;
+        }
+        div.social-inf {
+          padding-left: 0;
+          p {
+            margin-right: 6px;
+          }
+        }
+      }
+
+      section.designer-inf {
+        justify-content: center;
+        section.personal {margin-bottom: 60px;}
+        h1 {text-align: center;}
+
+        section.biography {
+          h1 {
+            margin: 0 0 16px 0;
+          }
+          p {text-align: center;}
+          a {
+            margin-top: 45px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    /*SECTION INFORMATION END*/
+
+    /*SECTION EDUCATION START*/
+    section#education {
+      padding: 45px 0;
+    }
+
+    section.main-education {
+      flex-wrap: wrap;
+      div.left-date {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px 33px 8px;
+        height: 0;
+        flex-basis: 144px;
+        p {
+          transform: none;
+        }
+        span {
+          top: 43px;
+          border-left: 10px solid transparent;
+    	    border-right: 10px solid transparent;
+    	    border-top: 20px solid $nav;
+        }
+      }
+      div.main-descr {
+        padding: 20px 0;
+      }
+       div.right-date {display: none;}
+    }
+    p#data {
+      width: 130px;
+      transform: none;
+    }
+    div#triangle {
+      top: 43px;
+      left: 30px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid $nav;
+    }
+    /*SECTION EDUCATION END*/
 }
-/*MEDIA SCREENS END*/
+                                  /*MEDIA SCREENS END*/

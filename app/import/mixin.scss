@@ -35,6 +35,7 @@
   margin-right: 7px;
   background: url(../img/social-inf-icons.png) no-repeat;
   align-self: center;
+  transition: filter 0.4s ease;
   &:last-child {margin-right: 0;}
   &.tw {background-position: -28px 0;}
   &.ins {background-position: -58px 0;}
