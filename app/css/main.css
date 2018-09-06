@@ -1073,11 +1073,11 @@ section.main-footer div.social-inf-footer a.lin {
 /*MAX-WIDTH: 320PX*/
 @media screen and (max-width: 320px) {
   header {
-    padding-bottom: 50px;
+    padding: 78px 0 50px 0;
   }
   header label {
+    top: 5px;
     left: 5%;
-    bottom: 93%;
   }
   header section.menu {
     position: absolute;
@@ -1100,11 +1100,116 @@ section.main-footer div.social-inf-footer a.lin {
     padding: 15px 15px;
   }
   header section.descr-header {
-    margin-top: 64px;
     text-align: center;
   }
   header section.descr-header h1 {
     font-size: 60px;
+  }
+}
+
+/*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  header {
+    padding: 78px 0 50px 0;
+  }
+  header label {
+    top: 5px;
+    left: 5%;
+  }
+  header section.menu {
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    margin-top: 0;
+    padding: 0;
+  }
+  header section.menu nav {
+    width: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  header section.menu nav a {
+    margin-right: 0;
+    padding: 15px 15px;
+  }
+  header section.descr-header {
+    text-align: center;
+  }
+  header section.descr-header h1 {
+    font-size: 60px;
+  }
+}
+
+/*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  header {
+    padding: 78px 0 50px 0;
+  }
+  header label {
+    top: 5px;
+    left: 5%;
+  }
+  header section.menu {
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    margin-top: 0;
+    padding: 0;
+  }
+  header section.menu nav {
+    width: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  header section.menu nav a {
+    margin-right: 0;
+    padding: 15px 15px;
+  }
+  header section.descr-header {
+    text-align: center;
+  }
+  header section.descr-header h1 {
+    font-size: 60px;
+  }
+}
+
+/*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  header {
+    padding-top: 100px;
+  }
+  header section.descr-header {
+    text-align: center;
+  }
+  header section.menu {
+    text-align: center;
+  }
+  header section.menu nav a {
+    margin-right: 28px;
+  }
+}
+
+/*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    padding-top: 100px;
+  }
+  header section.descr-header {
+    text-align: center;
+  }
+  header section.menu {
+    text-align: center;
+  }
+  header section.menu nav a {
+    margin-right: 28px;
   }
 }
 

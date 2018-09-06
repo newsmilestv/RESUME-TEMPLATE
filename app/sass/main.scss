@@ -691,11 +691,12 @@ footer {
 /*MAX-WIDTH: 320PX*/
 @media screen and (max-width: 320px) {
   header {
-    padding-bottom: 50px;
+    padding: 78px 0 50px 0;
+
     label {
+    top: 5px;
     left: 5%;
-    bottom: 93%;
-  }
+    }
   section.menu {
    position: absolute;
    top: 1%;
@@ -713,7 +714,7 @@ footer {
    }
  }
  section.descr-header {
-   margin-top: 64px;
+   //margin-top: -167px;
    text-align: center;
    h1 {
      font-size: 60px;
@@ -721,5 +722,112 @@ footer {
  }
 }
 
+}
+
+
+/*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  header {
+    padding: 78px 0 50px 0;
+
+    label {
+    top: 5px;
+    left: 5%;
+    }
+  section.menu {
+   position: absolute;
+   top: 1%;
+   left: 27%;
+   margin-top: 0;
+   padding: 0;
+   nav {
+     width: 200px;
+     flex-direction: column;
+     text-align: center;
+     a {
+      margin-right: 0;
+      padding: 15px 15px;
+    }
+   }
+ }
+ section.descr-header {
+   //margin-top: -167px;
+   text-align: center;
+   h1 {
+     font-size: 60px;
+   }
+ }
+}
+}
+
+/*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
+@media screen and (min-width: 481px) and (max-width: 600px){
+  header {
+    padding: 78px 0 50px 0;
+
+    label {
+    top: 5px;
+    left: 5%;
+    }
+  section.menu {
+   position: absolute;
+   top: 1%;
+   left: 27%;
+   margin-top: 0;
+   padding: 0;
+   nav {
+     width: 200px;
+     flex-direction: column;
+     text-align: center;
+     a {
+      margin-right: 0;
+      padding: 15px 15px;
+    }
+   }
+ }
+ section.descr-header {
+   //margin-top: -167px;
+   text-align: center;
+   h1 {
+     font-size: 60px;
+   }
+ }
+}
+}
+
+/*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
+@media screen and (min-width: 601px) and (max-width: 768px){
+  header {
+    padding-top: 100px;
+    section.descr-header {
+      text-align: center;
+    }
+    section.menu {
+      text-align: center;
+      nav {
+        a {
+          margin-right: 28px;
+        }
+      }
+    }
+  }
+}
+
+/*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    padding-top: 100px;
+    section.descr-header {
+      text-align: center;
+    }
+    section.menu {
+      text-align: center;
+      nav {
+        a {
+          margin-right: 28px;
+        }
+      }
+    }
+  }
 }
 /*MEDIA SCREENS END*/
