@@ -810,6 +810,42 @@ div#triangle {
   border-top: 20px solid $nav;
 }
 /*SECTION EDUCATION END*/
+
+/*SECTION MY SKILLS START*/
+section#my-skills {
+  padding: 15px 0;
+}
+
+section.skills {
+  flex-wrap: wrap;
+}
+
+div.prof-personal {
+  padding: 30px 0 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  div.professional {
+    margin-right: 0;
+    div.head {
+      h2 {margin-left: 10px;}
+    }
+    ul.left-skills {
+      margin: 19px 0 0 9px;
+    }
+    &:last-child {margin-top: 30px;}
+  }
+}
+
+div.languages {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+/*SECTION MY SKILLS END*/
 }
 
 
@@ -840,8 +876,7 @@ div#triangle {
    }
  }
  section.descr-header {
-   //margin-top: -167px;
-   text-align: center;
+     text-align: center;
    h1 {
      font-size: 60px;
    }
@@ -935,6 +970,42 @@ div#triangle {
   border-top: 20px solid $nav;
 }
 /*SECTION EDUCATION END*/
+
+/*SECTION MY SKILLS START*/
+section#my-skills {
+  padding: 15px 0;
+}
+
+section.skills {
+  flex-wrap: wrap;
+}
+
+div.prof-personal {
+  padding: 30px 0 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  div.professional {
+    margin-right: 0;
+    div.head {
+      h2 {margin-left: 10px;}
+    }
+    ul.left-skills {
+      margin: 19px 0 0 9px;
+    }
+    &:last-child {margin-top: 30px;}
+  }
+}
+
+div.languages {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+/*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
@@ -1045,6 +1116,45 @@ div#triangle {
   border-top: 20px solid $nav;
 }
 /*SECTION EDUCATION END*/
+
+/*SECTION MY SKILLS START*/
+section#my-skills {
+  padding: 15px 0;
+}
+
+section.skills {
+  flex-wrap: wrap;
+}
+
+div.prof-personal {
+  padding: 30px 0 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  div.professional {
+    margin-right: 0;
+    div.head {
+      h2 {margin-left: 10px;}
+    }
+    ul.left-skills {
+      margin: 19px 0 0 9px;
+    }
+    &:last-child {margin-top: 30px;}
+  }
+}
+
+div.languages {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  article {
+    margin: 10px;
+  }
+}
+
+/*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
@@ -1139,6 +1249,44 @@ div#triangle {
     border-top: 20px solid $nav;
   }
   /*SECTION EDUCATION END*/
+
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+
+  section.skills {
+    flex-wrap: wrap;
+  }
+
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    div.professional {
+        div.head {
+        h2 {margin-left: 10px;}
+      }
+      ul.left-skills {
+        margin: 19px 0 0 9px;
+      }
+      &:first-child {margin-bottom: 30px;}
+    }
+  }
+
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    article {
+      margin: 10px;
+    }
+  }
+
+  /*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
@@ -1233,5 +1381,44 @@ div#triangle {
       border-top: 20px solid $nav;
     }
     /*SECTION EDUCATION END*/
+
+    /*SECTION MY SKILLS START*/
+    section#my-skills {
+      padding: 15px 0;
+    }
+
+    section.skills {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    div.prof-personal {
+      padding: 30px 0 30px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+      div.professional {
+          div.head {
+          h2 {margin-left: 10px;}
+        }
+        ul.left-skills {
+          margin: 19px 0 0 9px;
+        }
+        &:first-child {margin-bottom: 30px;}
+      }
+    }
+
+    div.languages {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 0 0 0;
+      article {
+        margin: 10px;
+      }
+    }
+
+    /*SECTION MY SKILLS END*/
 }
                                   /*MEDIA SCREENS END*/

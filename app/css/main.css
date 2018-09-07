@@ -1201,6 +1201,53 @@ section.main-footer div.social-inf-footer a.lin {
     border-top: 20px solid #0e82f9;
   }
   /*SECTION EDUCATION END*/
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+  section.skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal div.professional {
+    margin-right: 0;
+  }
+  div.prof-personal div.professional div.head h2 {
+    margin-left: 10px;
+  }
+  div.prof-personal div.professional ul.left-skills {
+    margin: 19px 0 0 9px;
+  }
+  div.prof-personal div.professional:last-child {
+    margin-top: 30px;
+  }
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  /*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
@@ -1327,6 +1374,53 @@ section.main-footer div.social-inf-footer a.lin {
     border-top: 20px solid #0e82f9;
   }
   /*SECTION EDUCATION END*/
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+  section.skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal div.professional {
+    margin-right: 0;
+  }
+  div.prof-personal div.professional div.head h2 {
+    margin-left: 10px;
+  }
+  div.prof-personal div.professional ul.left-skills {
+    margin: 19px 0 0 9px;
+  }
+  div.prof-personal div.professional:last-child {
+    margin-top: 30px;
+  }
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  /*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
@@ -1451,6 +1545,56 @@ section.main-footer div.social-inf-footer a.lin {
     border-top: 20px solid #0e82f9;
   }
   /*SECTION EDUCATION END*/
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+  section.skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal div.professional {
+    margin-right: 0;
+  }
+  div.prof-personal div.professional div.head h2 {
+    margin-left: 10px;
+  }
+  div.prof-personal div.professional ul.left-skills {
+    margin: 19px 0 0 9px;
+  }
+  div.prof-personal div.professional:last-child {
+    margin-top: 30px;
+  }
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  div.languages article {
+    margin: 10px;
+  }
+  /*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
@@ -1558,6 +1702,53 @@ section.main-footer div.social-inf-footer a.lin {
     border-top: 20px solid #0e82f9;
   }
   /*SECTION EDUCATION END*/
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+  section.skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal div.professional div.head h2 {
+    margin-left: 10px;
+  }
+  div.prof-personal div.professional ul.left-skills {
+    margin: 19px 0 0 9px;
+  }
+  div.prof-personal div.professional:first-child {
+    margin-bottom: 30px;
+  }
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  div.languages article {
+    margin: 10px;
+  }
+  /*SECTION MY SKILLS END*/
 }
 
 /*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
@@ -1658,6 +1849,57 @@ section.main-footer div.social-inf-footer a.lin {
     border-top: 20px solid #0e82f9;
   }
   /*SECTION EDUCATION END*/
+  /*SECTION MY SKILLS START*/
+  section#my-skills {
+    padding: 15px 0;
+  }
+  section.skills {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal {
+    padding: 30px 0 30px 0;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.prof-personal div.professional div.head h2 {
+    margin-left: 10px;
+  }
+  div.prof-personal div.professional ul.left-skills {
+    margin: 19px 0 0 9px;
+  }
+  div.prof-personal div.professional:first-child {
+    margin-bottom: 30px;
+  }
+  div.languages {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  div.languages article {
+    margin: 10px;
+  }
+  /*SECTION MY SKILLS END*/
 }
 
 /*MEDIA SCREENS END*/
