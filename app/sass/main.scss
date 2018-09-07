@@ -612,6 +612,7 @@ section.form-and-contacts {
         border: none;
         @include button;
       }
+      p{justify-content: center;}
       }
   }
 
@@ -652,7 +653,9 @@ section.form-and-contacts {
         }
       }
     }
-    div.map {margin-top: 54px;}
+    div.map {
+      margin-top: 54px;
+    }
   }
 }
 /*SECTION GET IN TOUCH END*/
@@ -693,7 +696,7 @@ footer {
 
                             /*MEDIA SCREENS START*/
 
-/*MAX-WIDTH: 320PX*/
+                 /*MAX-WIDTH: 320PX*/
 @media screen and (max-width: 320px) {
   /*HEADER START*/
   header {
@@ -878,10 +881,36 @@ section#portfolio {
   }
 }
 /*SECTION PORTFOLIO END*/
+
+/*SECTION GET IN TOUCH START*/
+ section#get-in-touch {
+   padding: 26px 0;
+   h1 {margin-bottom: 26px;}
+ }
+
+ section.form-and-contacts {
+   div.form {
+     margin-right: 0;
+     h2 {align-self: center;}
+     form {
+       align-items: center;
+       input, textarea {width: 100%;}
+     }
+   }
+
+   div.contacts {
+     margin-top: 50px;
+     h2 {align-self: center;}
+     ul.address {
+       li{justify-content: center;}
+     }
+   }
+ }
+/*SECTION GET IN TOUCH END*/
 }
 
 
-/*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
+                    /*MIN-WIDTH: 321PX AND MAX-WIDTH: 480PX*/
 @media screen and (min-width: 321px) and (max-width: 480px) {
   /*HEADER START*/
   header {
@@ -1065,9 +1094,35 @@ section#portfolio {
   }
 }
 /*SECTION PORTFOLIO END*/
+
+/*SECTION GET IN TOUCH START*/
+ section#get-in-touch {
+   padding: 26px 0;
+   h1 {margin-bottom: 26px;}
+ }
+
+ section.form-and-contacts {
+   div.form {
+     margin-right: 0;
+     h2 {align-self: center;}
+     form {
+       // align-items: center;
+       //input, textarea {width: 100%;}
+     }
+   }
+
+   div.contacts {
+     margin-top: 50px;
+     h2 {align-self: center;}
+     ul.address {
+       li {justify-content: center;}
+     }
+   }
+ }
+/*SECTION GET IN TOUCH END*/
 }
 
-/*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
+ /*MIN-WIDTH 481PX AND MAX-WIDTH: 600PX*/
 @media screen and (min-width: 481px) and (max-width: 600px){
   /*HEADER START*/
   header {
@@ -1242,6 +1297,29 @@ section#portfolio {
   }
 }
 /*SECTION PORTFOLIO END*/
+
+/*SECTION GET IN TOUCH START*/
+ section#get-in-touch {
+   padding: 26px 0;
+   h1 {margin-bottom: 26px;}
+ }
+
+ section.form-and-contacts {
+   div.form {
+     margin-right: 0;
+     h2 {align-self: center;}
+   }
+
+   div.contacts {
+     margin-top: 50px;
+     h2 {align-self: center;}
+     ul.address {
+       li {justify-content: center;}
+     }
+
+   }
+ }
+/*SECTION GET IN TOUCH END*/
 }
 
 /*MIN-WIDTH: 601PX AND MAX-WIDTH: 768PX*/
@@ -1402,6 +1480,30 @@ section#portfolio {
     }
   }
   /*SECTION PORTFOLIO END*/
+
+  /*SECTION GET IN TOUCH START*/
+   section#get-in-touch {
+     padding: 26px 0;
+     h1 {margin-bottom: 26px;}
+   }
+
+   section.form-and-contacts {
+     div.form {
+       margin-right: 0;
+       h2 {align-self: center;}
+       input, textarea {margin-left: 150px;}
+     }
+
+     div.contacts {
+       margin-top: 50px;
+       h2 {align-self: center;}
+       ul.address {
+         li {justify-content: center;}
+       }
+
+     }
+   }
+  /*SECTION GET IN TOUCH END*/
 }
 
 /*MIN-WIDTH: 769PX AND MAX-WIDTH: 1200PX*/
@@ -1563,5 +1665,29 @@ section#portfolio {
     }
   }
   /*SECTION PORTFOLIO END*/
+
+  /*SECTION GET IN TOUCH START*/
+   section#get-in-touch {
+     padding: 26px 0;
+     h1 {margin-bottom: 26px;}
+   }
+
+   section.form-and-contacts {
+     div.form {
+       margin-right: 0;
+       h2 {align-self: center;}
+       input, textarea {margin-left: 150px;}
+     }
+
+     div.contacts {
+       margin-top: 50px;
+       h2 {align-self: center;}
+       ul.address {
+         li {justify-content: center;}
+       }
+
+     }
+   }
+  /*SECTION GET IN TOUCH END*/
 }
                                   /*MEDIA SCREENS END*/
