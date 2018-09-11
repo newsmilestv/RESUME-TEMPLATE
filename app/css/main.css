@@ -1087,6 +1087,11 @@ section.main-footer div.social-inf-footer a.lin {
   background-position: -115px 0;
 }
 
+section.main-footer div.social-inf-footer a:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 /*FOOTER END*/
 /*MEDIA SCREENS START*/
 /*MAX-WIDTH: 320PX*/

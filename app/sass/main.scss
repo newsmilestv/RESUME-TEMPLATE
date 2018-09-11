@@ -222,8 +222,7 @@ section#information {
       }
       a {
         @include social;
-        &:hover {filter: grayscale(100%);}
-      }
+        }
     }
   }
 
